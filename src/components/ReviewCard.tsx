@@ -1,12 +1,16 @@
 import { Dispatch, FC, SetStateAction, useState } from "react";
 
-import { IReview } from "@/app/day/[id]/page";
+import { TReview } from "@/app/day/[id]/page";
+import LeftArrow from "../app/icons/LeftArrow";
+import RightArrow from "../app/icons/RightArrow";
+import axios from "axios";
+import Speaker from "@/app/icons/Speaker";
 
 // day, title 제거
-interface ReviewCardProps extends IReview {
+type ReviewCardProps = Pick<TReview, "sentences"> & {
   currentReview: number;
   setCurrentReview: Dispatch<SetStateAction<number>>;
-}
+};
 type TLanguage = "korean" | "english";
 
 const ReviewCard: FC<ReviewCardProps> = ({
@@ -16,8 +20,12 @@ const ReviewCard: FC<ReviewCardProps> = ({
 }) => {
   const [language, setIsLanguage] = useState<TLanguage>("korean");
 
-  const onClickLanguage = (_language: TLanguage) => () => {
-    setIsLanguage(_language);
+  const onClickLanguage = () => {
+    if (language === "korean") {
+      setIsLanguage("english");
+    } else {
+      setIsLanguage("korean");
+    }
   };
 
   const onClickPrev = () => {
@@ -38,45 +46,58 @@ const ReviewCard: FC<ReviewCardProps> = ({
     setIsLanguage("korean");
   };
 
+  const onClickListen = async () => {
+    try {
+      const response = await axios.post(`${process.env.NEXT_PUBLIC_URL}/api`, {
+        text: sentences[currentReview].english,
+      });
+
+      const binaryData = atob(response.data.audioContent);
+
+      const byteArray = new Uint8Array(binaryData.length);
+
+      for (let i = 0; i < binaryData.length; i++) {
+        byteArray[i] = binaryData.charCodeAt(i);
+      }
+
+      const blob = new Blob([byteArray.buffer], { type: "audio/mp3" });
+
+      const audio = new Audio(URL.createObjectURL(blob));
+
+      document.body.appendChild(audio);
+      audio.play();
+    } catch (error) {
+      console.error(error);
+    }
+  };
+
   return (
     <div className="w-full">
-      <div className="h-32">
+      <div className="h-48">
         <div className="border-black border-2 px-4 py-2">
           {sentences[currentReview][language]}
         </div>
+        <div className="mt-2">
+          <button onClick={onClickListen} className="btn-style">
+            <Speaker />
+          </button>
+        </div>
       </div>
       <div className="mt-4 flex justify-between">
-        <button onClick={onClickPrev}>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
-            fill="currentColor"
-            className="w-6 h-6"
-          >
-            <path
-              fillRule="evenodd"
-              d="M7.28 7.72a.75.75 0 010 1.06l-2.47 2.47H21a.75.75 0 010 1.5H4.81l2.47 2.47a.75.75 0 11-1.06 1.06l-3.75-3.75a.75.75 0 010-1.06l3.75-3.75a.75.75 0 011.06 0z"
-              clipRule="evenodd"
-            />
-          </svg>
+        <button onClick={onClickPrev} className="btn-style">
+          <LeftArrow />
         </button>
-        <button onClick={onClickLanguage("korean")}>KOR</button>
-        <button onClick={onClickLanguage("english")}>ENG</button>
-        <button onClick={onClickNext}>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            strokeWidth={1.5}
-            stroke="currentColor"
-            className="w-6 h-6"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"
-            />
-          </svg>
+        <button onClick={onClickLanguage} className="btn-style">
+          <span className={`${language === "korean" && "font-semibold"} mr-1`}>
+            KOR
+          </span>
+          /
+          <span className={`${language === "english" && "font-semibold"} ml-1`}>
+            ENG
+          </span>
+        </button>
+        <button onClick={onClickNext} className="btn-style">
+          <RightArrow />
         </button>
       </div>
     </div>

@@ -9,14 +9,14 @@ export const metadata: Metadata = {
   description: "Reviewing English",
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${inter.className} max-w-screen-sm mx-auto`}>
+        {children}
+      </body>
     </html>
   );
-}
+};
+
+export default RootLayout;
