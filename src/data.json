@@ -24,5 +24,31 @@
         "korean": "그 사람 직업이 좋은 건 아는데, 그런 남자는 나는 별로야."
       }
     ]
+  },
+  {
+    "day": 2,
+    "title": "I can't wait to move into the new house.",
+    "sentences": [
+      {
+        "english": "I can't wait to see what the next episode will bring.",
+        "korean": "다음 에피소드는 어떤 내용일지 궁금해 미치겠어."
+      },
+      {
+        "english": "I can't wait to see the look on my wife's face when she opens my gift.",
+        "korean": "아내가 제 선물을 개봉할 때 어떤 표정일지 궁금해 죽겠습니다."
+      },
+      {
+        "english": "I can't wait to be done with this project. It's taking forever.",
+        "korean": "이 프로젝트가 빨리 끝났으면 좋겠어요. 너무 오래 걸립니다."
+      },
+      {
+        "english": "That dinner smells delicious, honey. I can't wait.",
+        "korean": "여보, 저녁 식사가 너무 맛있는 냄새가 나네. 어서 먹고 싶어."
+      },
+      {
+        "english": "'Baby Driver' was released month ago in the United States. I can't wait for it to come out here.",
+        "korean": "'베이비 드라이버'가 미국에서는 몇 달 전에 개봉했어. 이곳에서도 어서 개봉했으면 좋겠다."
+      }
+    ]
   }
 ]
