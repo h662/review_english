@@ -6,7 +6,7 @@ export const POST = async (req: NextRequest) => {
     const { text } = await req.json();
 
     const response = await axios.post(
-      `https://texttospeech.googleapis.com/v1/text:synthesize?key=AIzaSyAyoT-OC4-qipzt4TnEiAkuEqrL834Drpk`,
+      `https://texttospeech.googleapis.com/v1/text:synthesize?key=${process.env.NEXT_PUBLIC_API_KEY}`,
       {
         input: { text },
         voice: { languageCode: "en-US", ssmlGender: "NEUTRAL" },
