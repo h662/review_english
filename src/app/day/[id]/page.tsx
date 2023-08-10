@@ -29,8 +29,6 @@ const Day: NextPage = () => {
     setReview(data[parseInt(id, 10) - 1]);
   }, [id]);
 
-  useEffect(() => console.log(review), [review]);
-
   return (
     <main className="flex min-h-screen flex-col items-center justify-start py-24 px-12">
       <div className="w-full relative flex justify-center">
