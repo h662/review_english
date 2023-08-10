@@ -73,7 +73,7 @@ const ReviewCard: FC<ReviewCardProps> = ({
 
   return (
     <div className="w-full">
-      <div className="h-48">
+      <div className="h-60">
         <div className="border-black border-2 px-4 py-2">
           {sentences[currentReview][language]}
         </div>
