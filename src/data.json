@@ -50,5 +50,31 @@
         "korean": "'베이비 드라이버'가 미국에서는 몇 달 전에 개봉했어. 이곳에서도 어서 개봉했으면 좋겠다."
       }
     ]
+  },
+  {
+    "day": 3,
+    "title": "Do you mind keeping it a bit short?",
+    "sentences": [
+      {
+        "english": "Do you mind if I finish off last piece of pizza?",
+        "korean": "제가 마지막 남은 피자 한 조각 먹어도 될까요?"
+      },
+      {
+        "english": "Do you mind grabbing me some coffee on your way?",
+        "korean": "미안한데, 오는 길에 커피 좀 사다 줄 수 있나요?"
+      },
+      {
+        "english": "I've got only five minutes to spare. Do you mind keeping it short?",
+        "korean": "제가 여유 시간이 겨우 5분 있어요. 짧게 해 주실 수 있을까요?"
+      },
+      {
+        "english": "Do you mind turning down the air-conditioning? I feel a bit cold.",
+        "korean": "에어컨 온도를 좀 낮추면 안 될까요? 좀 추워서요."
+      },
+      {
+        "english": "Do you mind if I ask you a personal question?",
+        "korean": "개인적인 질문 하나 해도 될까요?"
+      }
+    ]
   }
 ]
