@@ -76,5 +76,31 @@
         "korean": "개인적인 질문 하나 해도 될까요?"
       }
     ]
+  },
+  {
+    "day": 4,
+    "title": "Everything is getting super expensive.",
+    "sentences": [
+      {
+        "english": "She is super tall.",
+        "korean": "그 여자분 키 엄청 커요."
+      },
+      {
+        "english": "Either he has been super busy, or he is losing interest in me.",
+        "korean": "그 사람이 무지 바쁘거나, 아니면 저에 대한 관심이 식고 있는 거겠죠."
+      },
+      {
+        "english": "I've been super busy with my upcoming move.",
+        "korean": "제가 요즘 이사 준비 때문에 엄청 바빴어요."
+      },
+      {
+        "english": "Wow. You're in super good shape for an old guy.",
+        "korean": "우와. 연세 있으신 분치고는 몸매가 너무 좋으시네요."
+      },
+      {
+        "english": "All the neighborhoods in Seoul are super expensive, but Huam-dong is relatively cheap.",
+        "korean": "서울은 어디라도 다 너무 비싸. 근데 후암동은 상대적으로 저렴한 편이지."
+      }
+    ]
   }
 ]
