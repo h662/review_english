@@ -1,12 +1,11 @@
 import { Dispatch, FC, SetStateAction, useState } from "react";
 
 import { TReview } from "@/app/day/[id]/page";
-import LeftArrow from "../app/icons/LeftArrow";
-import RightArrow from "../app/icons/RightArrow";
+import LeftArrow from "@/app/icons/LeftArrow";
+import RightArrow from "@/app/icons/RightArrow";
 import axios from "axios";
 import Speaker from "@/app/icons/Speaker";
 
-// day, title 제거
 type ReviewCardProps = Pick<TReview, "sentences"> & {
   currentReview: number;
   setCurrentReview: Dispatch<SetStateAction<number>>;
@@ -19,6 +18,7 @@ const ReviewCard: FC<ReviewCardProps> = ({
   setCurrentReview,
 }) => {
   const [language, setIsLanguage] = useState<TLanguage>("korean");
+  const [isLoading, setIsLoading] = useState<boolean>(false);
 
   const onClickLanguage = () => {
     if (language === "korean") {
@@ -48,6 +48,10 @@ const ReviewCard: FC<ReviewCardProps> = ({
 
   const onClickListen = async () => {
     try {
+      if (isLoading) return;
+
+      setIsLoading(true);
+
       const response = await axios.post(`${process.env.NEXT_PUBLIC_URL}/api`, {
         text: sentences[currentReview].english,
       });
@@ -62,10 +66,12 @@ const ReviewCard: FC<ReviewCardProps> = ({
 
       const blob = new Blob([byteArray.buffer], { type: "audio/mp3" });
 
-      const audio = new Audio(URL.createObjectURL(blob));
+      const newAudio = new Audio(URL.createObjectURL(blob));
 
-      document.body.appendChild(audio);
-      audio.play();
+      document.body.appendChild(newAudio);
+      newAudio.play();
+
+      setTimeout(() => setIsLoading(false), 3000);
     } catch (error) {
       console.error(error);
     }

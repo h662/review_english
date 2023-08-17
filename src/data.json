@@ -102,5 +102,27 @@
         "korean": "서울은 어디라도 다 너무 비싸. 근데 후암동은 상대적으로 저렴한 편이지."
       }
     ]
+  },
+  {
+    "day": 5,
+    "title": "How do you feel about buyinh something second-hand, like a used car?",
+    "sentences": [
+      {
+        "english": "How do you feel about signing up for a matchmaking service?",
+        "korean": "중매업체에 등록해 보는 게  어때요?"
+      },
+      {
+        "english": "How do you about going to church?",
+        "korean": "교회에 가 보는 게 어때요?"
+      },
+      {
+        "english": "How do you feel about joining a hiking club?",
+        "korean": "등산 모임에 가입해 보는 게 어떨까요?"
+      },
+      {
+        "english": "How do you feel about plastic surgery?",
+        "korean": "성형 수술 하는 거 어떻게 생각하세요?"
+      }
+    ]
   }
 ]
