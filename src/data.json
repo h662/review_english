@@ -124,5 +124,57 @@
         "korean": "성형 수술 하는 거 어떻게 생각하세요?"
       }
     ]
+  },
+  {
+    "day": 6,
+    "title": "There is nothing like camping to recharge your batteries.",
+    "sentences": [
+      {
+        "english": "There's nothing like a nice meal with friends to turn a bad week around.",
+        "korean": "안 좋았던 한 주를 날려 버리려면 친구들과 맛있는 식사를 하는 게 최고지."
+      },
+      {
+        "english": "There's nothing like binging a show on Netflix all weekend.",
+        "korean": "주말 내내 넷플릭스 드라마를 보는게 최고야."
+      },
+      {
+        "english": "There is nothing like a turkey dinner and spiced wine for Christmas.",
+        "korean": "크리스마스에는 칠면조 저녁 식사와 풍미 좋은 와인만 한 게 없지."
+      },
+      {
+        "english": "I'm so glad we can go to concerts again. There's nothing like seeing your favorite band live.",
+        "korean": "다시 콘서트에 갈 수 있어서 너무 좋아. 가장 좋아하는 밴드의 라이브 공연을 보는 것만큼 좋은 것은 없지."
+      },
+      {
+        "english": "There's nothing like real maple syrup on pancakes.",
+        "korean": "팬케이크에는 진짜 메이플 시럽을 얹어 먹어야 제맛이야."
+      }
+    ]
+  },
+  {
+    "day": 7,
+    "title": "I am up for anything, as long as it's not too spicy.",
+    "sentences": [
+      {
+        "english": "I'm up for anything with a Michelin star.",
+        "korean": "미슐랭 스타를 받은 음식이라면 뭐든 좋아."
+      },
+      {
+        "english": "What do you feel like doing? I'd be up for just about anything.",
+        "korean": "뭐 하고 싶어? 난 뭐든 다 좋아."
+      },
+      {
+        "english": "I'm looking for a beer pong partner. Are you down?",
+        "korean": "나 비어 퐁 파트너 찾고 있는데 관심 있어?"
+      },
+      {
+        "english": "I've been craving fried chicken. Is anyone down for some tonight?",
+        "korean": "나 프라이드치킨이 무지 먹고 싶어. 오늘 밤에 같이 먹을 사람?"
+      },
+      {
+        "english": "I was thinking of hiking Bukhan Mountain on Saturday morning, and I need a buddy. Do you think you'd be down?",
+        "korean": "토요일 아침에 북한산 등산 갈까 하는데 같이 갈 사람이 필요해. 관심 있을까?"
+      }
+    ]
   }
 ]
