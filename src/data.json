@@ -152,28 +152,80 @@
     ]
   },
   {
-    "day": 7,
-    "title": "I am up for anything, as long as it's not too spicy.",
+    "day": 8,
+    "title": "I don't feel quite right today.",
     "sentences": [
       {
-        "english": "I'm up for anything with a Michelin star.",
-        "korean": "미슐랭 스타를 받은 음식이라면 뭐든 좋아."
+        "english": "I wish I could come, but I don't feel quite right today.",
+        "korean": "나도 가고는 싶은데, 오늘 몸이 안 좋아."
       },
       {
-        "english": "What do you feel like doing? I'd be up for just about anything.",
-        "korean": "뭐 하고 싶어? 난 뭐든 다 좋아."
+        "english": "I'm afraid I can't join you for dinner. I don't feel quite right today.",
+        "korean": "저녁을 같이 못 할 것 같습니다. 오늘 몸이 좀 안 좋네요."
       },
       {
-        "english": "I'm looking for a beer pong partner. Are you down?",
-        "korean": "나 비어 퐁 파트너 찾고 있는데 관심 있어?"
+        "english": "Honey, I don't feel quite right today. Can you pick up Sujin from school?",
+        "korean": "여보, 나 오늘 몸이 좀 안 좋아. 수진이 학교에서 좀 데려와 줄래?"
       },
       {
-        "english": "I've been craving fried chicken. Is anyone down for some tonight?",
-        "korean": "나 프라이드치킨이 무지 먹고 싶어. 오늘 밤에 같이 먹을 사람?"
+        "english": "I think I'll skip dinner. My stomach doesn't feel quite right today.",
+        "korean": "오늘은 저녁 안 먹을래. 오늘 속이 좀 안 좋아서."
       },
       {
-        "english": "I was thinking of hiking Bukhan Mountain on Saturday morning, and I need a buddy. Do you think you'd be down?",
-        "korean": "토요일 아침에 북한산 등산 갈까 하는데 같이 갈 사람이 필요해. 관심 있을까?"
+        "english": "I don't think it's good idea for me to come to your daughter's party. I don't feel quite right today.",
+        "korean": "너희 딸 파티에 나는 안 가는 게 좋을 것 같아. 오늘 몸이 좀 안 좋네."
+      }
+    ]
+  },
+  {
+    "day": 9,
+    "title": "Would you like me to grab you some coffee while I'm at Starbucks?",
+    "sentences": [
+      {
+        "english": "Would you like me to read the first sentence?",
+        "korean": "제가 첫 번째 문장을 읽을까요?"
+      },
+      {
+        "english": "Would you like me to get you some water while I'm up?",
+        "korean": "제가 일어난 김에 물 좀 가져다드릴까요?"
+      },
+      {
+        "english": "Would tou like me to send you the revised version?",
+        "korean": "수정본 보내드릴까요?"
+      },
+      {
+        "english": "Do you want me to come along with you?",
+        "korean": "내가 따라가 줄까?"
+      },
+      {
+        "english": "Do you want me to set you two up on a date?",
+        "korean": "내가 너희 둘 자리를 마련해 줄까?"
+      }
+    ]
+  },
+  {
+    "day": 10,
+    "title": "What price range do you have in mind?",
+    "sentences": [
+      {
+        "english": "Do you have any actor in mind for the lead role?",
+        "korean": "주연 배우로 생각하고 있는 분 있으신가요?"
+      },
+      {
+        "english": "Do you have any good beef place in mind?",
+        "korean": "괜찮은 소고깃집 생각해 둔 데 있어?"
+      },
+      {
+        "english": "I don't really have any car in mind. I will go with pretty much anything as long as it's good shape.",
+        "korean": "딱히 염두에 둔 차는 없습니다. 상태만 좋으면 뭐라도 사겠습니다."
+      },
+      {
+        "english": "I have nothing particular in mind.",
+        "korean": "특별히 염두에 둔 건 없습니다."
+      },
+      {
+        "english": "I'd like to make a suggesion, unless you have something in mind.",
+        "korean": "다른 안이 없으시면 제가 제안을 하고 싶습니다."
       }
     ]
   }
