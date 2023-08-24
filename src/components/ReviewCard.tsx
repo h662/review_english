@@ -1,10 +1,10 @@
 import { Dispatch, FC, SetStateAction, useState } from "react";
 
 import { TReview } from "@/app/day/[id]/page";
-import LeftArrow from "@/icons/LeftArrow";
-import RightArrow from "@/icons/RightArrow";
+import LeftArrow from "@/app/icons/LeftArrow";
+import RightArrow from "@/app/icons/RightArrow";
 import axios from "axios";
-import Speaker from "@/icons/Speaker";
+import Speaker from "@/app/icons/Speaker";
 
 type ReviewCardProps = Pick<TReview, "sentences"> & {
   currentReview: number;
