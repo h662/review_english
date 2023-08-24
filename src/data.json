@@ -254,5 +254,27 @@
         "korean": "다른 안이 없으시면 제가 제안을 하고 싶습니다."
       }
     ]
+  },
+  {
+    "day": 11,
+    "title": "I was thinking of going to translation grad school.",
+    "sentences": [
+      {
+        "english": "I was thinking of traveling to Australia for the holiday.",
+        "korean": "연휴 때 호주로 여행을 갈까 생각 중입니다."
+      },
+      {
+        "english": "Do you already have dinner plans? I was thinking of trying a pizza place that my coworker recommended.",
+        "korean": "오늘 저녁 약속 있어? 동료가 추천해 준 피자 가게 가 볼까 하는데."
+      },
+      {
+        "english": "I was thinking of Mongolia for my next trip, but I decided not to go there.",
+        "korean": "다음 여행은 몽골을 생각 중이었는데, 안 가기로 했습니다."
+      },
+      {
+        "english": "It's a little out of my price range. Besides, I was thinking of going with something more basic.",
+        "korean": "제가 생각하던 가격대보다 조금 비싸네요. 게다가 저는 좀 더 기본형인 것을 생각하고 있었거든요."
+      }
+    ]
   }
 ]
