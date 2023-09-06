@@ -276,5 +276,31 @@
         "korean": "제가 생각하던 가격대보다 조금 비싸네요. 게다가 저는 좀 더 기본형인 것을 생각하고 있었거든요."
       }
     ]
+  },
+  {
+    "day": 12,
+    "title": "I wish I had that much money.",
+    "sentences": [
+      {
+        "english": "I wish I had your confidence.",
+        "korean": "너의 자신감이 참 부럽다."
+      },
+      {
+        "english": "I wish I could go with you, but I can't find the time.",
+        "korean": "저도 같이 가고 싶긴 한데, 시간이 안 나네요."
+      },
+      {
+        "english": "I wish I could eat seafood.",
+        "korean": "제가 해산물을 못 먹어서 너무 아쉽네요."
+      },
+      {
+        "english": "I always wish I could spend more time with my family.",
+        "korean": "항상 가족들이랑 시간을 좀 더 많이 보내고 싶은데 그러질 못하네요."
+      },
+      {
+        "english": "I wish I could take back what I said.",
+        "korean": "내가 한 말을 주워 담을 수도 없고."
+      }
+    ]
   }
 ]
