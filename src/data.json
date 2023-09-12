@@ -302,5 +302,31 @@
         "korean": "내가 한 말을 주워 담을 수도 없고."
       }
     ]
+  },
+  {
+    "day": 13,
+    "title": "How does 2:30 sound?",
+    "sentences": [
+      {
+        "english": "I don't feel like cooking. How does fried chicken sound?",
+        "korean": "요리하고 싶지 않아. 프라이드치킨 먹는 건 어때?"
+      },
+      {
+        "english": "I was thinking about having Indian food tonight. How does that sound?",
+        "korean": "오늘 저녁에는 인도 음식 먹을까 싶은데, 어때?"
+      },
+      {
+        "english": "If I can't take Monday off, maybe we could just vacation in Gyeonggi-do.",
+        "korean": "월요일 월차 못 내면 그냥 경기도 가서 휴가 보내야 할 듯해. 어때?"
+      },
+      {
+        "english": "I thought maybe we could meet on Zoom next week. How does that sound?",
+        "korean": "다음 주는 줌에서 만나면 어떨까 하는데요. 어떠세요?"
+      },
+      {
+        "english": "I was thinking of closing the store next week for Christmas. How does that sound to you?",
+        "korean": "다음 주 크리스마스 때는 가게 문 닫을까 하는 데. 당신 생각은 어때?"
+      }
+    ]
   }
 ]
